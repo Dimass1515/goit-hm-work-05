@@ -661,12 +661,10 @@ img {
 .modal_button:hover {
   background-color: #404bbf;
   border: none;
-  fill: #ffffff;
 }
 .modal_button:focus {
   background-color: #404bbf;
   border: none;
-  fill: #ffffff;
 }
 .icon_close {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -712,6 +710,9 @@ img {
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.contact_form_input:focus {
+  border-color: #4d5ae5;
+}
 .window_icon {
   fill: #2e2f42;
   position: absolute;
@@ -721,6 +722,106 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .window_icon:focus {
+  fill: #4d5ae5;
+}
+.contact_form_textarea {
+  display: block;
+  width: 100%;
+  height: 120px;
+  border-radius: 4px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  color: rgba(46, 47, 66, 0.4);
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  text-indent: 8px;
+  resize: none;
+  background-color: transparent;
+  padding: 8px 16px;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contact_form_textarea:focus {
+  color: rgb(67, 68, 85);
+  border-color: #4d5ae5;
+}
+.contact_form_link {
+  color: #4d5ae5;
+  line-height: 1;
+  letter-spacing: 0.04em;
+  text-decoration-line: underline;
+}
+.checkbox_div {
+  margin-bottom: 24px;
+}
+.checkbox_label {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  display: block;
+}
+.checkbox_label_span {
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+
+  margin-right: 8px;
+}
+.checkbox_input:checked + .checkbox_label > .checkbox_label_span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+.contact_form_button {
+  margin: auto auto;
+  padding: 16px 32px;
+  border-radius: 4px;
+  background-color: #4d5ae5;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  margin-top: 16px;
+
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contact_form_button:hover {
+  background-color: #404bbf;
+}
+.contact_form_button:focus {
+  background-color: #404bbf;
+}
+
+.window_icon {
+  fill: #2e2f42;
+
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.window_icon:focus {
+  fill: #4d5ae5;
+}
+.contact_form_input:focus + .window_icon {
   fill: #4d5ae5;
 }
 /* Modal Window */
