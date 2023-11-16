@@ -308,6 +308,7 @@ img {
 /* Section 3 */
 .social-link {
   fill: #f4f4fd;
+  margin-left: 16px;
 }
 
 .social-links {
@@ -562,8 +563,6 @@ img {
 .email_form {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   display: flex;
-}
-.email_label {
   gap: 24px;
 }
 .email_input {
@@ -580,6 +579,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  padding-left: 16px;
 }
 .email_input::placeholder {
   color: #ffffff;
@@ -606,4 +606,5 @@ img {
   background: var(--IRIS, #4d5ae5);
   border: none;
 }
+
 /* Footer */
