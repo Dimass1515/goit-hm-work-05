@@ -606,5 +606,8 @@ img {
   background: var(--IRIS, #4d5ae5);
   border: none;
 }
+.social_div {
+  margin-right: 80px;
+}
 
 /* Footer */
