@@ -663,9 +663,8 @@ img {
 :focus {
   background-color: #404bbf;
   border: none;
-  fill: #fff;
+  fill: #ffffff;
 }
-
 .icon_close {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -684,7 +683,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.contact_form-label {
+.contact_form_label {
   color: #8e8f99;
   font-size: 12px;
   line-height: 1.17;
@@ -752,7 +751,7 @@ img {
   text-decoration-line: underline;
 }
 .checkbox_div {
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 .checkbox_label {
   font-size: 12px;
@@ -761,7 +760,7 @@ img {
   color: #8e8f99;
   display: block;
 }
-.checkbox_label_span {
+.checkbox_span {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -773,10 +772,9 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
-
   margin-right: 8px;
 }
-.checkbox_input:checked + .checkbox_label > .checkbox_label_span {
+.checkbox_input:checked + .checkbox_label > .checkbox_span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
