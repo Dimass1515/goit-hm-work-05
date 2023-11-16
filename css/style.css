@@ -549,4 +549,59 @@ img {
 .footer_svg_link {
   fill: #f4f4fd;
 }
+.subscribe_paragraf {
+  color: var(--WHITE, #fff);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+.email_form {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.email_label {
+  gap: 24px;
+}
+.email_input {
+  width: 264px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid var(--WHITE, #fff);
+  background-color: transparent;
+  color: var(--WHITE, #fff);
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+}
+.email_input::placeholder {
+  color: #ffffff;
+}
+.button_footer {
+  color: var(--WHITE, #fff);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  display: inline-flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  min-width: 164px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 4px;
+  background: var(--IRIS, #4d5ae5);
+  border: none;
+}
 /* Footer */
