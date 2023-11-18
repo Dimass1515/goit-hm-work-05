@@ -87,7 +87,7 @@ img {
   align-items: center;
 }
 
-.link::after {
+.curent::after {
   content: "";
   position: absolute;
   left: 0;
@@ -308,7 +308,6 @@ img {
 /* Section 3 */
 .social-link {
   fill: #f4f4fd;
-  margin-left: 16px;
 }
 
 .social-links {
@@ -540,7 +539,7 @@ img {
   gap: 16px;
   box-shadow: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin-left: 16px;
+  fill: #f4f4fd;
 }
 .footer_link:hover {
   background-color: #31d0aa;
@@ -821,7 +820,7 @@ img {
 }
 
 .input-icon {
-  fill: #4d5ae5;
+  fill: #2e2f42;
   position: absolute;
   left: 16px;
   top: 50%;
